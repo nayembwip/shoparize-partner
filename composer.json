@@ -1,0 +1,25 @@
+{
+    "name": "shoparize/module-partner",
+    "description": "Magento 2 Shoparize Module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Nayem",
+            "email": "nayem323@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shoparize\\Partner\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
